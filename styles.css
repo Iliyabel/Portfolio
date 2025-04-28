@@ -1,0 +1,80 @@
+:root {
+    --Dark-Blue-color1: #10232A;
+    --Light-Blue-color2: #3D4D55;
+    --Light-Grey-color3: #A79E9C;
+    --White-color4: #D3C3B9;
+    --Tan-color5: #B58863;
+    --Black-color6: #161616;
+}
+
+/* Reset default margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Dark-Blue-color1);
+    color: var(--White-color4);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    color: var(--White-color4);
+    padding: 10px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    display: flex;
+    margin: 0;
+    color: var(--Light-Grey-color3);
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    /* position: fixed; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Light-Blue-color2);
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 15px 15px 15px 15px;
+}
+
+nav li {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+nav a {
+    color: var(--White-color4);
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+}
+
+body .main-container {
+    margin: 20px 20px;
+}
+
+body h2 {
+    background-color: var(--Dark-Blue-color1);
+    color: var(--White-color4);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 5px;
+}
