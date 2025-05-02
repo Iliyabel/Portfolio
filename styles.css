@@ -37,27 +37,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--Dark-Blue-color1);
-    color: var(--White-color4);
+    background-color: var(--nord0);
     text-align: center;
     font-family: 'Arial', sans-serif;
     width: 100%;
     margin: 0;
+    color: var(--nord4)
 }
 
 header h1 {
     margin: 0;
-    color: var(--White-color4);
     padding: 10px;
     text-align: left;
-    font-family: 'Arial', sans-serif;
 }
 
 .header {
     display: flex;
     margin: 0;
-    color: var(--Light-Grey-color3);
-    font-family: 'Arial', sans-serif;
     width: 100%;
     padding : 1.5em;
     /* position: fixed; */
@@ -65,55 +61,58 @@ header h1 {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: var(--Light-Blue-color2);
-    /* padding: 10px; */
+    margin-right: 3em;
 }
 
 nav a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--Light-Blue-color2);
-    padding: 20px;
-    margin: 0px;
+    background-color: var(--nord3);
+    padding: 12px 20px;
+    margin-right: 10px;
+    border-radius: .4em;
+    font-weight: bold;
+    color: var(--nord4)
 }
 
 nav a:hover {
     background-color: #161616;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 15px 15px 15px 15px;
-}
-
-nav li {
-    list-style: none;
-    margin: 0px 15px;
-    padding-top: 5px;
-}
-
 nav a {
-    color: var(--White-color4);
     text-decoration: none;
     font-family: 'Arial', sans-serif;
 }
 
-nav li:hover {
-    background-color: #161616;
+body {
+    background-color: var(--nord0);
 }
 
 body .main-container {
-    margin: 3em 5em;
+    margin: 4em 9em;
 }
 
 body h2 {
-    background-color: var(--Dark-Blue-color1);
-    color: var(--White-color4);
+    background-color: var(--nord3);
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 5px;
+    padding: 10px;
+    border-radius: .25em;
+    color: var(--nord4)
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nord0);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    margin: 0;
+    color: var(--nord4);
+    padding: 3em 5em;
 }
